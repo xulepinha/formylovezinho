@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+}
+
+body {
+    background: url(https://i.pinimg.com/originals/d8/34/5c/d8345cf4cdd7e013e964f91d0c3b2228.gif) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+  text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px; 
+    margin: auto;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+}
+
+.xuxu {
+    padding: 20px;
+}
+
+.guaxinim {
+ width: 200px;
+ padding: 20px;
+ justify-content: center;
+    align-items: center;
+    max-width: 500px; 
+    margin: auto;
+}
+
+.bolhas {
+    width: 60%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.salsicha {
+    width: 200px;
+ padding: 20px;
+ justify-content: center;
+    align-items: center;
+    max-width: 500px; 
+    margin: auto;
+}
+
+.coruja {
+    width: 200px;
+    padding: 20px;
+    justify-content: center;
+       align-items: center;
+       max-width: 500px; 
+       margin: auto;
+}
